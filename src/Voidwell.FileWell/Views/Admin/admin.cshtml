@@ -1,0 +1,15 @@
+﻿<div>
+    <h1>Admin</h1>
+    <div class="card">
+        <h3>Upload</h3>
+        <form asp-route="FileUpload" enctype="multipart/form-data">
+            <div>
+                <label for="file-input">Choose file to upload</label>
+                <input type="file" id="file-input" name="file" />
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
